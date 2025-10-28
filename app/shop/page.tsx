@@ -4,13 +4,13 @@ import { useState, useMemo } from "react"
 import { PRODUCTS } from "@/lib/products"
 import ProductCard from "@/components/product-card"
 
-type Category = "All" | "Hair products" | "Lip Care"
+type Category = "All" | "Hair Products" | "Lip Care"
 
 export default function ShopPage() {
   const [selectedCategory, setSelectedCategory] = useState<Category>("All")
   const [sortBy, setSortBy] = useState<"featured" | "price-low" | "price-high" | "rating">("featured")
 
-  const categories: Category[] = ["All", "Hair products", "Lip Care"]
+  const categories: Category[] = ["All", "Hair Products", "Lip Care"]
 
   const filteredProducts = useMemo(() => {
     let filtered = PRODUCTS
