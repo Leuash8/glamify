@@ -15,8 +15,8 @@ export const CONFIG = {
     port: Number.parseInt(process.env.SMTP_PORT || "587"),
     secure: process.env.SMTP_SECURE === "true",
     auth: {
-      user: process.env.SMTP_USER || "your-email@gmail.com",
-      pass: process.env.SMTP_PASSWORD || "your-app-password",
+      user: process.env.SMTP_USER || "nagystephen71@gmail.com",
+      pass: process.env.SMTP_PASSWORD || "vael ihug yttg sibs",
     },
   },
 }
