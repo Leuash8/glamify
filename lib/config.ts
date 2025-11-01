@@ -1,7 +1,7 @@
 export const CONFIG = {
   whatsapp: "2349076879255",
   snapchat: "https://snapchat.com/t/pht2ka57",
-  adminEmail: process.env.NEXT_PUBLIC_ADMIN_EMAIL || "admin@glamify.com",
+  adminEmail: process.env.NEXT_PUBLIC_ADMIN_EMAIL ||"obunikeeffie@gmail.com",
   facebook: "https://facebook.com/glamify",
 
   pickupFee: 0, // Free pickup
